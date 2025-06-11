@@ -1,8 +1,31 @@
-# React + Vite
+# ChatGPT UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple chat UI built with React and Vite. It allows you to converse with OpenAI models.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file and define your OpenAI API key:
+
+```bash
+VITE_OPENAI_API_KEY=YOUR_KEY_HERE
+```
+
+## Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
